@@ -1,0 +1,6 @@
+framework module Pods_TAU_TAUUITests {
+  umbrella header "Pods-TAU-TAUUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

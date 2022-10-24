@@ -1,0 +1,750 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09267DD1E22309CFE25E7DE7 /* Pods_TAU_TAUUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65A34026EA99C6AA01AB6EA5 /* Pods_TAU_TAUUITests.framework */; };
+		4555486828F7F27D000A892A /* TAUUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4555486728F7F27D000A892A /* TAUUITests.swift */; };
+		4555486A28F7F27D000A892A /* TAUUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4555486928F7F27D000A892A /* TAUUITestsLaunchTests.swift */; };
+		4555487128F8EE65000A892A /* TAUUITestBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4555487028F8EE65000A892A /* TAUUITestBase.swift */; };
+		455548F628FE88DC000A892A /* BDDTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455548F528FE88DC000A892A /* BDDTest.swift */; };
+		455548FA28FF8595000A892A /* TAUElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455548F928FF8595000A892A /* TAUElements.swift */; };
+		455548FC28FF863F000A892A /* TAUSteps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455548FB28FF863F000A892A /* TAUSteps.swift */; };
+		4555490329000F8B000A892A /* TAUEyeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4555490229000F8B000A892A /* TAUEyeTest.swift */; };
+		9B5BC70E220F55C20047CFA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5BC70D220F55C20047CFA4 /* AppDelegate.swift */; };
+		9B5BC710220F55C20047CFA4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5BC70F220F55C20047CFA4 /* ViewController.swift */; };
+		9B5BC713220F55C20047CFA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B5BC711220F55C20047CFA4 /* Main.storyboard */; };
+		9B5BC715220F55D20047CFA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B5BC714220F55D20047CFA4 /* Assets.xcassets */; };
+		9B5BC718220F55D20047CFA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B5BC716220F55D20047CFA4 /* LaunchScreen.storyboard */; };
+		9B5BC723220F55D20047CFA4 /* TAUTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5BC722220F55D20047CFA4 /* TAUTests.swift */; };
+		B59188EDBCEC38CD34AD3989 /* Pods_TAU.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 440091928991417DD6FFFB3A /* Pods_TAU.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4555486B28F7F27D000A892A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B5BC702220F55C20047CFA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B5BC709220F55C20047CFA4;
+			remoteInfo = TAU;
+		};
+		9B5BC71F220F55D20047CFA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B5BC702220F55C20047CFA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B5BC709220F55C20047CFA4;
+			remoteInfo = TAU;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		440091928991417DD6FFFB3A /* Pods_TAU.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TAU.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4555486528F7F27D000A892A /* TAUUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TAUUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4555486728F7F27D000A892A /* TAUUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TAUUITests.swift; sourceTree = "<group>"; };
+		4555486928F7F27D000A892A /* TAUUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TAUUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4555487028F8EE65000A892A /* TAUUITestBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TAUUITestBase.swift; sourceTree = "<group>"; };
+		455548F528FE88DC000A892A /* BDDTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BDDTest.swift; sourceTree = "<group>"; };
+		455548F928FF8595000A892A /* TAUElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TAUElements.swift; sourceTree = "<group>"; };
+		455548FB28FF863F000A892A /* TAUSteps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TAUSteps.swift; sourceTree = "<group>"; };
+		4555490229000F8B000A892A /* TAUEyeTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TAUEyeTest.swift; sourceTree = "<group>"; };
+		5B300E47E9FBBD44A02C4BAF /* Pods-TAU-TAUUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TAU-TAUUITests.release.xcconfig"; path = "Target Support Files/Pods-TAU-TAUUITests/Pods-TAU-TAUUITests.release.xcconfig"; sourceTree = "<group>"; };
+		65A34026EA99C6AA01AB6EA5 /* Pods_TAU_TAUUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TAU_TAUUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		83E1F9E0C09D87BCA06C6AE2 /* Pods-TAU.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TAU.release.xcconfig"; path = "Target Support Files/Pods-TAU/Pods-TAU.release.xcconfig"; sourceTree = "<group>"; };
+		91AD22AE09BEF975EA4DA893 /* Pods-TAU-TAUUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TAU-TAUUITests.debug.xcconfig"; path = "Target Support Files/Pods-TAU-TAUUITests/Pods-TAU-TAUUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9B5BC70A220F55C20047CFA4 /* TAU.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TAU.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B5BC70D220F55C20047CFA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9B5BC70F220F55C20047CFA4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9B5BC712220F55C20047CFA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9B5BC714220F55D20047CFA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9B5BC717220F55D20047CFA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9B5BC719220F55D20047CFA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B5BC71E220F55D20047CFA4 /* TAUTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TAUTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B5BC722220F55D20047CFA4 /* TAUTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TAUTests.swift; sourceTree = "<group>"; };
+		9B5BC724220F55D20047CFA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D15001E6FC1AB14AC43566A5 /* Pods-TAU.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TAU.debug.xcconfig"; path = "Target Support Files/Pods-TAU/Pods-TAU.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4555486228F7F27D000A892A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09267DD1E22309CFE25E7DE7 /* Pods_TAU_TAUUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B5BC707220F55C20047CFA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B59188EDBCEC38CD34AD3989 /* Pods_TAU.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B5BC71B220F55D20047CFA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19865B409BB3C5D26417BD21 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D15001E6FC1AB14AC43566A5 /* Pods-TAU.debug.xcconfig */,
+				83E1F9E0C09D87BCA06C6AE2 /* Pods-TAU.release.xcconfig */,
+				91AD22AE09BEF975EA4DA893 /* Pods-TAU-TAUUITests.debug.xcconfig */,
+				5B300E47E9FBBD44A02C4BAF /* Pods-TAU-TAUUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4555486628F7F27D000A892A /* TAUUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4555490128FF8771000A892A /* Base */,
+				4555490028FF8764000A892A /* XCUIElements */,
+				455548FF28FF8755000A892A /* Steps */,
+				455548FE28FF874D000A892A /* Tests */,
+				4555486928F7F27D000A892A /* TAUUITestsLaunchTests.swift */,
+			);
+			path = TAUUITests;
+			sourceTree = "<group>";
+		};
+		455548FE28FF874D000A892A /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				455548F528FE88DC000A892A /* BDDTest.swift */,
+				4555486728F7F27D000A892A /* TAUUITests.swift */,
+				4555490229000F8B000A892A /* TAUEyeTest.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		455548FF28FF8755000A892A /* Steps */ = {
+			isa = PBXGroup;
+			children = (
+				455548FB28FF863F000A892A /* TAUSteps.swift */,
+			);
+			path = Steps;
+			sourceTree = "<group>";
+		};
+		4555490028FF8764000A892A /* XCUIElements */ = {
+			isa = PBXGroup;
+			children = (
+				455548F928FF8595000A892A /* TAUElements.swift */,
+			);
+			path = XCUIElements;
+			sourceTree = "<group>";
+		};
+		4555490128FF8771000A892A /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				4555487028F8EE65000A892A /* TAUUITestBase.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		926B4A5806FA5485A96528A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				440091928991417DD6FFFB3A /* Pods_TAU.framework */,
+				65A34026EA99C6AA01AB6EA5 /* Pods_TAU_TAUUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9B5BC701220F55C20047CFA4 = {
+			isa = PBXGroup;
+			children = (
+				9B5BC70C220F55C20047CFA4 /* TAU */,
+				9B5BC721220F55D20047CFA4 /* TAUTests */,
+				4555486628F7F27D000A892A /* TAUUITests */,
+				9B5BC70B220F55C20047CFA4 /* Products */,
+				19865B409BB3C5D26417BD21 /* Pods */,
+				926B4A5806FA5485A96528A7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9B5BC70B220F55C20047CFA4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B5BC70A220F55C20047CFA4 /* TAU.app */,
+				9B5BC71E220F55D20047CFA4 /* TAUTests.xctest */,
+				4555486528F7F27D000A892A /* TAUUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B5BC70C220F55C20047CFA4 /* TAU */ = {
+			isa = PBXGroup;
+			children = (
+				9B5BC70D220F55C20047CFA4 /* AppDelegate.swift */,
+				9B5BC70F220F55C20047CFA4 /* ViewController.swift */,
+				9B5BC711220F55C20047CFA4 /* Main.storyboard */,
+				9B5BC714220F55D20047CFA4 /* Assets.xcassets */,
+				9B5BC716220F55D20047CFA4 /* LaunchScreen.storyboard */,
+				9B5BC719220F55D20047CFA4 /* Info.plist */,
+			);
+			path = TAU;
+			sourceTree = "<group>";
+		};
+		9B5BC721220F55D20047CFA4 /* TAUTests */ = {
+			isa = PBXGroup;
+			children = (
+				9B5BC722220F55D20047CFA4 /* TAUTests.swift */,
+				9B5BC724220F55D20047CFA4 /* Info.plist */,
+			);
+			path = TAUTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4555486428F7F27D000A892A /* TAUUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4555486F28F7F27D000A892A /* Build configuration list for PBXNativeTarget "TAUUITests" */;
+			buildPhases = (
+				859600EB56509CBE2CB27317 /* [CP] Check Pods Manifest.lock */,
+				4555486128F7F27D000A892A /* Sources */,
+				4555486228F7F27D000A892A /* Frameworks */,
+				4555486328F7F27D000A892A /* Resources */,
+				30ABD7BF508EB2AF202A311A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4555486C28F7F27D000A892A /* PBXTargetDependency */,
+			);
+			name = TAUUITests;
+			productName = TAUUITests;
+			productReference = 4555486528F7F27D000A892A /* TAUUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		9B5BC709220F55C20047CFA4 /* TAU */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B5BC727220F55D20047CFA4 /* Build configuration list for PBXNativeTarget "TAU" */;
+			buildPhases = (
+				3AC8DC65440E13E74BC5D565 /* [CP] Check Pods Manifest.lock */,
+				9B5BC706220F55C20047CFA4 /* Sources */,
+				9B5BC707220F55C20047CFA4 /* Frameworks */,
+				9B5BC708220F55C20047CFA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TAU;
+			productName = TAU;
+			productReference = 9B5BC70A220F55C20047CFA4 /* TAU.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9B5BC71D220F55D20047CFA4 /* TAUTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B5BC72A220F55D20047CFA4 /* Build configuration list for PBXNativeTarget "TAUTests" */;
+			buildPhases = (
+				9B5BC71A220F55D20047CFA4 /* Sources */,
+				9B5BC71B220F55D20047CFA4 /* Frameworks */,
+				9B5BC71C220F55D20047CFA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B5BC720220F55D20047CFA4 /* PBXTargetDependency */,
+			);
+			name = TAUTests;
+			productName = TAUTests;
+			productReference = 9B5BC71E220F55D20047CFA4 /* TAUTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B5BC702220F55C20047CFA4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Shashikant Jagtap";
+				TargetAttributes = {
+					4555486428F7F27D000A892A = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 9B5BC709220F55C20047CFA4;
+					};
+					9B5BC709220F55C20047CFA4 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					9B5BC71D220F55D20047CFA4 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 9B5BC709220F55C20047CFA4;
+					};
+				};
+			};
+			buildConfigurationList = 9B5BC705220F55C20047CFA4 /* Build configuration list for PBXProject "TAU" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9B5BC701220F55C20047CFA4;
+			productRefGroup = 9B5BC70B220F55C20047CFA4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B5BC709220F55C20047CFA4 /* TAU */,
+				9B5BC71D220F55D20047CFA4 /* TAUTests */,
+				4555486428F7F27D000A892A /* TAUUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4555486328F7F27D000A892A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B5BC708220F55C20047CFA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B5BC718220F55D20047CFA4 /* LaunchScreen.storyboard in Resources */,
+				9B5BC715220F55D20047CFA4 /* Assets.xcassets in Resources */,
+				9B5BC713220F55C20047CFA4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B5BC71C220F55D20047CFA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		30ABD7BF508EB2AF202A311A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TAU-TAUUITests/Pods-TAU-TAUUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TAU-TAUUITests/Pods-TAU-TAUUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TAU-TAUUITests/Pods-TAU-TAUUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3AC8DC65440E13E74BC5D565 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TAU-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		859600EB56509CBE2CB27317 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TAU-TAUUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4555486128F7F27D000A892A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				455548FA28FF8595000A892A /* TAUElements.swift in Sources */,
+				4555486828F7F27D000A892A /* TAUUITests.swift in Sources */,
+				4555490329000F8B000A892A /* TAUEyeTest.swift in Sources */,
+				455548FC28FF863F000A892A /* TAUSteps.swift in Sources */,
+				4555487128F8EE65000A892A /* TAUUITestBase.swift in Sources */,
+				455548F628FE88DC000A892A /* BDDTest.swift in Sources */,
+				4555486A28F7F27D000A892A /* TAUUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B5BC706220F55C20047CFA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B5BC710220F55C20047CFA4 /* ViewController.swift in Sources */,
+				9B5BC70E220F55C20047CFA4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B5BC71A220F55D20047CFA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B5BC723220F55D20047CFA4 /* TAUTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4555486C28F7F27D000A892A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B5BC709220F55C20047CFA4 /* TAU */;
+			targetProxy = 4555486B28F7F27D000A892A /* PBXContainerItemProxy */;
+		};
+		9B5BC720220F55D20047CFA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B5BC709220F55C20047CFA4 /* TAU */;
+			targetProxy = 9B5BC71F220F55D20047CFA4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9B5BC711220F55C20047CFA4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B5BC712220F55C20047CFA4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9B5BC716220F55D20047CFA4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B5BC717220F55D20047CFA4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4555486D28F7F27D000A892A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91AD22AE09BEF975EA4DA893 /* Pods-TAU-TAUUITests.debug.xcconfig */;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Concentrix.TAUUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TAU;
+			};
+			name = Debug;
+		};
+		4555486E28F7F27D000A892A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B300E47E9FBBD44A02C4BAF /* Pods-TAU-TAUUITests.release.xcconfig */;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Concentrix.TAUUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TAU;
+			};
+			name = Release;
+		};
+		9B5BC725220F55D20047CFA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9B5BC726220F55D20047CFA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B5BC728220F55D20047CFA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D15001E6FC1AB14AC43566A5 /* Pods-TAU.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E8YSTT4EW3;
+				INFOPLIST_FILE = TAU/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shashikant.TAU;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9B5BC729220F55D20047CFA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83E1F9E0C09D87BCA06C6AE2 /* Pods-TAU.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E8YSTT4EW3;
+				INFOPLIST_FILE = TAU/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shashikant.TAU;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9B5BC72B220F55D20047CFA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E8YSTT4EW3;
+				INFOPLIST_FILE = TAUTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shashikant.TAUTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TAU.app/TAU";
+			};
+			name = Debug;
+		};
+		9B5BC72C220F55D20047CFA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E8YSTT4EW3;
+				INFOPLIST_FILE = TAUTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shashikant.TAUTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TAU.app/TAU";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4555486F28F7F27D000A892A /* Build configuration list for PBXNativeTarget "TAUUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4555486D28F7F27D000A892A /* Debug */,
+				4555486E28F7F27D000A892A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B5BC705220F55C20047CFA4 /* Build configuration list for PBXProject "TAU" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B5BC725220F55D20047CFA4 /* Debug */,
+				9B5BC726220F55D20047CFA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B5BC727220F55D20047CFA4 /* Build configuration list for PBXNativeTarget "TAU" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B5BC728220F55D20047CFA4 /* Debug */,
+				9B5BC729220F55D20047CFA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B5BC72A220F55D20047CFA4 /* Build configuration list for PBXNativeTarget "TAUTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B5BC72B220F55D20047CFA4 /* Debug */,
+				9B5BC72C220F55D20047CFA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9B5BC702220F55C20047CFA4 /* Project object */;
+}

@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites name='TAUUITests.xctest' tests='7' failures='0'>
+  <testsuite name='TAUUITests.BDDTest' tests='1' failures='0'>
+    <testcase classname='TAUUITests.BDDTest' name='testThankYouMessageInBDStyle' time='4.609'/>
+  </testsuite>
+  <testsuite name='TAUUITests.TAUEyeTest' tests='1' failures='0'>
+    <testcase classname='TAUUITests.TAUEyeTest' name='testTAUWithEyesXCUI' time='16.244'/>
+  </testsuite>
+  <testsuite name='TAUUITests.TAUUITests' tests='3' failures='0'>
+    <testcase classname='TAUUITests.TAUUITests' name='testAllElementsOfMainScreen' time='3.314'/>
+    <testcase classname='TAUUITests.TAUUITests' name='testLaunchPerformance' time='76.700'/>
+    <testcase classname='TAUUITests.TAUUITests' name='testThankYouMessage' time='3.825'/>
+  </testsuite>
+  <testsuite name='TAUUITests.TAUUITestsLaunchTests' tests='2' failures='0'>
+    <testcase classname='TAUUITests.TAUUITestsLaunchTests' name='testLaunch' time='1.942'/>
+    <testcase classname='TAUUITests.TAUUITestsLaunchTests' name='testLaunch' time='3.183'/>
+  </testsuite>
+</testsuites>

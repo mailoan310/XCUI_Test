@@ -1,0 +1,9 @@
+target 'TAU' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+  target 'TAUUITests' do
+    # Pods for testing
+     pod 'EyesXCUI'
+  end
+
+end
